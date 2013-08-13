@@ -1,30 +1,19 @@
 //
 //  DPCore.m
-//  MaPolitique
+//  DPFoundation
 //
 //  Created by Pierre Dulac on 05/08/10.
-//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 Pierre Dulac. All rights reserved.
 //
 
 #import "DPCore.h"
 
-#import "DPReachability.h"
-#import "AppDelegate.h"
-
-#define SITE_URL @"http://www.google.com"
-#define SITE_SHORT_URL @"www.google.com"
+#import <QuartzCore/QuartzCore.h>
 
 #define ASK_FOR_RATING_MINIMUM_TIME_BETWEEN		172800		// 2 days
 
 static NSString* kFirstLaunch			= @"FirstLaunch";
 static NSString* kOldUser				= @"OldUser";
-
-//static NSString* kLastAskForRatingDate	= @"LastAskForRatingDate";
-//static NSString* kLastAppVersionRated	= @"LastAppVersionRated";
-//static NSString* kITunesProfileURLFormat = @"http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=%@&amp;amp;amp;amp;mt=8";
-//static NSString* kITunesRatingURLFormat = @"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@";
-
-//static NSString* kMyITunesAppId			= @"390649866";
 
 
 @implementation DPCore

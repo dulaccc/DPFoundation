@@ -1,18 +1,16 @@
 //
 //  DPCore.h
-//  MaPolitique
+//  DPFoundation
 //
 //  Created by Pierre Dulac on 05/08/10.
-//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 Pierre Dulac. All rights reserved.
 //
 
-#import <QuartzCore/QuartzCore.h>
+#import <Foundation/Foundation.h>
 
 
 @interface DPCore : NSObject <UIAlertViewDelegate>
-{
-	//RHAddressBook* _addressBook;
-	
+{	
 	NSMutableDictionary* _alertViewContext; // in order to keep object in a context
 	NSMutableDictionary* _callbackContext;
 }

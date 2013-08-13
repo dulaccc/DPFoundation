@@ -1,9 +1,9 @@
 //
 //  DPGlobal.h
-//  MaPolitique
+//  DPFoundation
 //
 //  Created by Pierre Dulac on 05/08/10.
-//  Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 Pierre Dulac. All rights reserved.
 //
 
 
@@ -21,7 +21,6 @@
 #import "UIImage+Generators.h"
 #import "UILabel+SizeUtils.h"
 #import "UITableViewCell+Positions.h"
-#import "UITableViewCellAdditions.h"
 #import "UIView+Utils.h"
 #import "UIView+Generators.h"
 #import "UIViewController+NavigationUtils.h"
