@@ -10,6 +10,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+
 #define ASK_FOR_RATING_MINIMUM_TIME_BETWEEN		172800		// 2 days
 
 static NSString* kFirstLaunch			= @"FirstLaunch";
@@ -83,7 +84,7 @@ static NSString* kOldUser				= @"OldUser";
 
 + (NSManagedObjectContext*)managedObjectContextFromAppDelegate
 {
-    AppDelegate* appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
+    id appDelegate = [[UIApplication sharedApplication] delegate];
 	if ([appDelegate respondsToSelector:@selector(managedObjectContext)]) {
 		return [appDelegate performSelector:@selector(managedObjectContext)];
 	}
